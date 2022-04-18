@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${man.getName()}"></title>
+</head>
+<body>
+<h1>Hello world</h1>
+<br>
+<span th:text="${man.getName()}"></span>
+<span th:text="${man.getId()}"></span>
+
+<a th:href="@{'/clients/all'}">"На страницу со всеми клиентами"</a>
+</body>
+</html>
